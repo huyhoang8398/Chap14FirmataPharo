@@ -1,0 +1,4 @@
+  Metacello new
+  baseline: 'Firmata';
+  repository: 'github://pharo-iot/Firmata';
+  load

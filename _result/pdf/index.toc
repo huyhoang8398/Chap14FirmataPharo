@@ -1,0 +1,10 @@
+\changetocdepth {1}
+\contentsline {chapter}{Illustrations}{ii}{section*.1}% 
+\needspace {6\baselineskip }
+\contentsline {part}{\partnumberline {I}My First book}{1}{part.1}% 
+\needspace {3\baselineskip }
+\contentsline {chapter}{\chapternumberline {1}Lesson 14 – Firmata implementation for the Pharo Programming Language.}{3}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Installation}{3}{section.1.1}% 
+\contentsline {subsection}{Arduino: Installing Standard Firmata}{3}{section*.3}% 
+\contentsline {subsection}{Pharo with Firmata}{4}{section*.4}% 
+\contentsline {chapter}{Bibliography}{5}{chapter*.5}% 

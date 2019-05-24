@@ -20,7 +20,7 @@ The aim is to allow people to completely control the Arduino from software on th
 
 !!!! Pharo with Firmata
 To load latest version of Firmata you can evaluate the following expression in playground:
-[[[/
+[[[
   Metacello new
   baseline: 'Firmata';
   repository: 'github://pharo-iot/Firmata';
