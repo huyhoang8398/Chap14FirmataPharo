@@ -2,7 +2,8 @@
 \contentsline {chapter}{Illustrations}{ii}{section*.1}% 
 \needspace {3\baselineskip }
 \contentsline {chapter}{\chapternumberline {1}Lesson 14 – Firmata implementation for the Pharo Programming Language.}{1}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Installation}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.1}What do we need?}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Installation}{1}{section.1.2}% 
 \contentsline {subsection}{Arduino: Installing Standard Firmata}{1}{section*.2}% 
-\contentsline {subsection}{Pharo with Firmata}{2}{section*.3}% 
-\contentsline {chapter}{Bibliography}{3}{chapter*.4}% 
+\contentsline {subsection}{Pharo with Firmata}{3}{section*.3}% 
+\contentsline {chapter}{Bibliography}{5}{chapter*.4}% 

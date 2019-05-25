@@ -98,6 +98,8 @@ It is intended to work with any host computer software package. Right now there 
 It is easy to add objects for other software to use this protocol. 
 Basically, this firmware establishes a protocol for talking to the Arduino from the host software. 
 The aim is to allow people to completely control the Arduino from software on the host computer.
+\section{What do we need?}
+In this lesson, we will use a setup with Pharo and Firmata.
 \section{Installation}\subsection{Arduino: Installing Standard Firmata}
 \begin{itemize}
 \item Your first step should be to download the Arduino application from 
@@ -115,6 +117,34 @@ The aim is to allow people to completely control the Arduino from software on th
   -For Windows, you should download the .EXE containing a full Windows installer. Double clicking on the .EXE should start the installation.
   -For Linux you will download a compressed TAR file. You can use the "tar" command to uncompress and unpack the application.
 \end{displaycode}
+
+\begin{itemize}
+\item Plug in Your Arduino Board as shown in Figure \ref{ArduinoConnection}. \textbf{Note:} Disconnect any wires that may be attached to your Arduino and plug the board into the computer.
+\end{itemize}
+
+
+\begin{figure}
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/IMG_3231.JPG}\caption{Arduino.\label{ArduinoConnection}}\end{center}
+\end{figure}
+
+
+\begin{itemize}
+\item You'll need to select the entry in the Tools \textgreater{} Board menu that corresponds to your Arduino board. 
+\begin{itemize}
+\item Here we are using Arduino UNO board and my port is /dev/tty.usbmodem14201 ( You may have a different port name depend on your operating system ).
+\end{itemize}
+
+\item Upload the Standard Firmata Sketch
+\begin{itemize}
+\item StandardFirmata is included with the Arduino IDE. To compile and upload StandardFirmata to your Arduino, open the IDE and select File/Examples/Firmata/StandardFirmata. 
+\item Now at the top of the text editor window, click the \symbol{34}Upload\symbol{34} button on the IDE.
+\item At the bottom of the text editor window, you should see a small status window. This will report the progress as the code is compiled and then uploaded to the Arduino. 
+\item While the code is being uploaded, you should see some very small LED lights (the Transmit (TX) and Receive (RX) lights) on your Arduino board blinking as the data is transferred.
+\end{itemize}
+
+\end{itemize}
 \subsection{Pharo with Firmata}
 To load latest version of Firmata you can evaluate the following expression in playground:
 
@@ -124,6 +154,8 @@ To load latest version of Firmata you can evaluate the following expression in p
   repository: 'github://pharo-iot/Firmata';
   load
 \end{displaycode}
+
+https://www.instructables.com/id/Arduino-Installing-Standard-Firmata/
 
 
 
