@@ -21,10 +21,12 @@ In this lesson, we will use a setup with Pharo and Firmata.
   -For Linux you will download a compressed TAR file. You can use the "tar" command to uncompress and unpack the application.
 ]]]
 
--Plug in Your Arduino Board as shown in Figure *@ArduinoConnection*. ""Note:"" Disconnect any wires that may be attached to your Arduino and plug the board into the computer.
+-Plug in Your Arduino Board as shown in Figure *@ArduinoConnection*.
+
+""Note:"" Disconnect any wires that may be attached to your Arduino and plug the board into the computer.
 +Arduino.>figures/IMG_3231.JPG|width=70|label=ArduinoConnection+
--You'll need to select the entry in the Tools > Board menu that corresponds to your Arduino board. 
---Here we are using Arduino UNO board and my port is /dev/tty.usbmodem14201 ( You may have a different port name depend on your operating system ).
+-You'll need to select the entry in the ==Tools > Board menu== that corresponds to your Arduino board. 
+--Here we are using Arduino UNO board and my port is ==/dev/tty.usbmodem14201== ( You may have a different port name depend on your operating system ).
 -Upload the Standard Firmata Sketch
 --StandardFirmata is included with the Arduino IDE. To compile and upload StandardFirmata to your Arduino, open the IDE and select File/Examples/Firmata/StandardFirmata. 
 --Now at the top of the text editor window, click the "Upload" button on the IDE.
@@ -40,7 +42,18 @@ To load latest version of Firmata you can evaluate the following expression in p
   load
 ]]]
 
+We have tested this library so far with Arduino Uno and Funduino Uno. 
+To connect to your firmatata enable device, you need the following things:
+-Know the device's port name.
+-Know its baud rate.
+-Install firmata in it (you can do it using your arduino IDE).
 
+!!! Digital Pins
+The ==digital inputs and outputs== (digital I/O) on the Arduino are what allow you to connect the Arduino sensors, actuators, and chips (intergrated circuit).
+For example in Arduino UNO which is a microcontroller board based on the "ATmega328". It has a few types of pins: ""digital pin"" ( 6 can be used as PWM outputs ), ""analog pins"" and orther pins like ""power pins""
 
+The ==digital pins== on the Arduino can be configured as either inputs or outputs. There are only two state, either ON or OFF state and these states are represented by the binary values 1 and 0. You use digital signals in situations where the input or output will have one of those two values. In Arduino sketch terms, a ON state is known as HIGH (5V) and OFF state is known as LOW (0V). In other words, we can use them to obtain a digital value (for example, if a button is pressed or not), or to set a value (set if a led is turned on or off) but not both at the same time.
+
+!!!! Writing to Digital Pins
 
 https://www.instructables.com/id/Arduino-Installing-Standard-Firmata/

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.5.15)  26 MAY 2019 01:09
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.5.15)  19 JUN 2019 19:00
  restricted system commands enabled.
 **Chapters/Chap14FirmataArduinoWithPharo/Chap14FirmataArduinoWithPharo.tex
 (./Chapters/Chap14FirmataArduinoWithPharo/Chap14FirmataArduinoWithPharo.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.063 seconds
+luaotfload | main : initialization completed in 0.053 seconds
 (./_support/latex/sbabook/sbabook.cls
 
 LaTeX Warning: You have requested document class `_support/latex/sbabook/sbabook
@@ -1710,7 +1710,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 64.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 64.
-<_support/latex/sbabook/CreativeCommons-BY-SA.pdf, id=49, 120.45pt x 42.1575pt>
+<_support/latex/sbabook/CreativeCommons-BY-SA.pdf, id=57, 120.45pt x 42.1575pt>
 File: _support/latex/sbabook/CreativeCommons-BY-SA.pdf Graphic file (type pdf)
 <use _support/latex/sbabook/CreativeCommons-BY-SA.pdf>
 Package luatex.def Info: _support/latex/sbabook/CreativeCommons-BY-SA.pdf  used 
@@ -1892,15 +1892,23 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 (/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArdui
 noWithPharo/Chap14FirmataArduinoWithPharo.listing)
 </Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduin
-oWithPharo/figures/IMG_3231.JPG, id=89, 4047.12pt x 3035.34pt>
+oWithPharo/figures/IMG_3231.JPG, id=98, 4047.12pt x 3035.34pt>
 File: /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataA
 rduinoWithPharo/figures/IMG_3231.JPG Graphic file (type jpg)
 <use /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataAr
 duinoWithPharo/figures/IMG_3231.JPG>
 Package luatex.def Info: /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chap
-ters/Chap14FirmataArduinoWithPharo/figures/IMG_3231.JPG  used on input line 129.
+ters/Chap14FirmataArduinoWithPharo/figures/IMG_3231.JPG  used on input line 130.
 
 (luatex.def)             Requested size: 227.49901pt x 170.57999pt.
+LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
+(Font)              scaled to size 8.61679pt on input line 135.
+
+Overfull \hbox (9.46567pt too wide) in paragraph at lines 137--138
+[]\TU/GentiumBasic(0)/m/n/10 Here we are us-ing Ar-duino UNO board and my port 
+is \TU/FiraMono(0)/m/n/10 /de-v/tty.us- 
+ []
+
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2</Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArdu
@@ -1926,28 +1934,28 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 \tf@lof=\write9
 
 \openout9 = Chap14FirmataArduinoWithPharo.lof
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
 
 (/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArdui
 noWithPharo/Chap14FirmataArduinoWithPharo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `Chap14FirmataArduinoWithPharo.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 8127686BB1ACBF915239DC0E679183C2;1288.
+(rerunfilecheck)             Checksum: B0B29E6DF4E6CF344082BF9F17800019;1584.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40801 strings out of 494291
+ 40807 strings out of 494291
  125017,1144653 words of node,token memory allocated
  1417 words of node memory still in use:
    7 hlist, 5 vlist, 1 rule, 11 glue, 3 kern, 1 glyph, 17 attribute, 208 glue_sp
 ec, 17 attribute_list, 3 write, 4 pdf_literal, 1 pdf_action nodes
-   avail lists: 1:4,2:1473,3:128,4:37,5:789,6:21,7:2237,8:57,9:1747,10:14,11:198
+   avail lists: 1:4,2:1479,3:134,4:37,5:793,6:25,7:2382,8:57,9:1748,10:14,11:196
 
- 43663 multiletter control sequences out of 65536+600000
- 123 fonts using 18243183 bytes
+ 43666 multiletter control sequences out of 65536+600000
+ 124 fonts using 18481119 bytes
  67i,12n,118p,892b,1046s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2019/texmf-dist/fonts/truetype/public/opensans/OpenSans-Bold
 .ttf></usr/local/texlive/2019/texmf-dist/fonts/opentype/public/fira/FiraMono-Reg
@@ -1955,9 +1963,9 @@ ular.otf></usr/local/texlive/2019/texmf-dist/fonts/truetype/public/gentium-tug/G
 enBkBasB.ttf></usr/local/texlive/2019/texmf-dist/fonts/truetype/public/gentium-t
 ug/GenBkBasR.ttf></usr/local/texlive/2019/texmf-dist/fonts/truetype/public/opens
 ans/OpenSans-Regular.ttf>
-Output written on Chap14FirmataArduinoWithPharo.pdf (10 pages, 4155197 bytes).
+Output written on Chap14FirmataArduinoWithPharo.pdf (10 pages, 4160409 bytes).
 
-PDF statistics: 153 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 131072)
- 132 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 162 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 131072)
+ 148 words of extra memory for PDF output out of 10000 (max. 100000000)
 

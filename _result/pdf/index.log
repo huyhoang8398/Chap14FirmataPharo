@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.5.15)  26 MAY 2019 01:10
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.5.15)  19 JUN 2019 19:01
  restricted system commands enabled.
 **index.tex
 (/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.058 seconds
+luaotfload | main : initialization completed in 0.091 seconds
 
 (/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/_support/latex/sbabook/sbab
 ook.cls
@@ -1711,7 +1711,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 64.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 64.
-<_support/latex/sbabook/CreativeCommons-BY-SA.pdf, id=53, 120.45pt x 42.1575pt>
+<_support/latex/sbabook/CreativeCommons-BY-SA.pdf, id=61, 120.45pt x 42.1575pt>
 File: _support/latex/sbabook/CreativeCommons-BY-SA.pdf Graphic file (type pdf)
 <use _support/latex/sbabook/CreativeCommons-BY-SA.pdf>
 Package luatex.def Info: _support/latex/sbabook/CreativeCommons-BY-SA.pdf  used 
@@ -1901,15 +1901,22 @@ LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
 \openout5 = index.listing
  (/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.listing)
 </Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduin
-oWithPharo/figures/IMG_3231.JPG, id=102, 4047.12pt x 3035.34pt>
+oWithPharo/figures/IMG_3231.JPG, id=111, 4047.12pt x 3035.34pt>
 File: /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataA
 rduinoWithPharo/figures/IMG_3231.JPG Graphic file (type jpg)
 <use /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataAr
 duinoWithPharo/figures/IMG_3231.JPG>
 Package luatex.def Info: /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chap
-ters/Chap14FirmataArduinoWithPharo/figures/IMG_3231.JPG  used on input line 129.
+ters/Chap14FirmataArduinoWithPharo/figures/IMG_3231.JPG  used on input line 130.
 
 (luatex.def)             Requested size: 227.49901pt x 170.57999pt.
+LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
+(Font)              scaled to size 8.61679pt on input line 135.
+
+Overfull \hbox (9.46567pt too wide) in paragraph at lines 137--138
+[]\TU/GentiumBasic(0)/m/n/10 Here we are us-ing Ar-duino UNO board and my port 
+is \TU/FiraMono(0)/m/n/10 /de-v/tty.us- 
+ []
 
 [4</Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArdu
 inoWithPharo/figures/IMG_3231.JPG>]
@@ -1932,25 +1939,25 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 \tf@lof=\write9
 
 \openout9 = index.lof
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: B1C645D2EC40BCD8F56137898D68719D;1412.
+(rerunfilecheck)             Checksum: 201E8A9B5D5E4D874F09E60C7AA7B4C4;1709.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40816 strings out of 494291
+ 40822 strings out of 494291
  125017,1144653 words of node,token memory allocated
  1417 words of node memory still in use:
    7 hlist, 5 vlist, 1 rule, 11 glue, 3 kern, 1 glyph, 17 attribute, 208 glue_sp
 ec, 17 attribute_list, 3 write, 4 pdf_literal, 1 pdf_action nodes
-   avail lists: 1:4,2:1473,3:128,4:37,5:789,6:21,7:2237,8:57,9:1747,10:14,11:198
+   avail lists: 1:4,2:1479,3:134,4:37,5:793,6:25,7:2382,8:57,9:1748,10:14,11:196
 
- 43670 multiletter control sequences out of 65536+600000
- 128 fonts using 18955007 bytes
+ 43673 multiletter control sequences out of 65536+600000
+ 129 fonts using 19192943 bytes
  67i,12n,118p,829b,1046s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2019/texmf-dist/fonts/truetype/public/opensans/OpenSans-Bold
 .ttf></usr/local/texlive/2019/texmf-dist/fonts/opentype/public/fira/FiraMono-Reg
@@ -1958,9 +1965,9 @@ ular.otf></usr/local/texlive/2019/texmf-dist/fonts/truetype/public/gentium-tug/G
 enBkBasB.ttf></usr/local/texlive/2019/texmf-dist/fonts/truetype/public/gentium-t
 ug/GenBkBasR.ttf></usr/local/texlive/2019/texmf-dist/fonts/truetype/public/opens
 ans/OpenSans-Regular.ttf>
-Output written on index.pdf (12 pages, 4157466 bytes).
+Output written on index.pdf (12 pages, 4162957 bytes).
 
-PDF statistics: 169 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 131072)
- 140 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 180 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 131072)
+ 156 words of extra memory for PDF output out of 10000 (max. 100000000)
 

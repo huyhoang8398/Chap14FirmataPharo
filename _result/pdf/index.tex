@@ -119,9 +119,10 @@ In this lesson, we will use a setup with Pharo and Firmata.
 \end{displaycode}
 
 \begin{itemize}
-\item Plug in Your Arduino Board as shown in Figure \ref{ArduinoConnection}. \textbf{Note:} Disconnect any wires that may be attached to your Arduino and plug the board into the computer.
+\item Plug in Your Arduino Board as shown in Figure \ref{ArduinoConnection}.
 \end{itemize}
 
+\textbf{Note:} Disconnect any wires that may be attached to your Arduino and plug the board into the computer.
 
 \begin{figure}
 
@@ -131,9 +132,9 @@ In this lesson, we will use a setup with Pharo and Firmata.
 
 
 \begin{itemize}
-\item You'll need to select the entry in the Tools \textgreater{} Board menu that corresponds to your Arduino board. 
+\item You'll need to select the entry in the \textcode{Tools \textgreater{} Board menu} that corresponds to your Arduino board. 
 \begin{itemize}
-\item Here we are using Arduino UNO board and my port is /dev/tty.usbmodem14201 ( You may have a different port name depend on your operating system ).
+\item Here we are using Arduino UNO board and my port is \textcode{/dev/tty.usbmodem14201} ( You may have a different port name depend on your operating system ).
 \end{itemize}
 
 \item Upload the Standard Firmata Sketch
@@ -155,6 +156,20 @@ To load latest version of Firmata you can evaluate the following expression in p
   load
 \end{displaycode}
 
+We have tested this library so far with Arduino Uno and Funduino Uno. 
+To connect to your firmatata enable device, you need the following things:
+
+\begin{itemize}
+\item Know the device's port name.
+\item Know its baud rate.
+\item Install firmata in it (you can do it using your arduino IDE).
+\end{itemize}
+\section{Digital Pins}
+The \textcode{digital inputs and outputs} (digital I/O) on the Arduino are what allow you to connect the Arduino sensors, actuators, and chips (intergrated circuit).
+For example in Arduino UNO which is a microcontroller board based on the \symbol{34}ATmega328\symbol{34}. It has a few types of pins: \textbf{digital pin} ( 6 can be used as PWM outputs ), \textbf{analog pins} and orther pins like \textbf{power pins}
+
+The \textcode{digital pins} on the Arduino can be configured as either inputs or outputs. There are only two state, either ON or OFF state and these states are represented by the binary values 1 and 0. You use digital signals in situations where the input or output will have one of those two values. In Arduino sketch terms, a ON state is known as HIGH (5V) and OFF state is known as LOW (0V). In other words, we can use them to obtain a digital value (for example, if a button is pressed or not), or to set a value (set if a led is turned on or off) but not both at the same time.
+\subsection{Writing to Digital Pins}
 https://www.instructables.com/id/Arduino-Installing-Standard-Firmata/
 
 
