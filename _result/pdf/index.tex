@@ -100,6 +100,17 @@ Basically, this firmware establishes a protocol for talking to the Arduino from 
 The aim is to allow people to completely control the Arduino from software on the host computer.
 \section{What do we need?}
 In this lesson, we will use a setup with Pharo and Firmata.
+
+\textbf{Components}
+
+\begin{itemize}
+\item 1 Arduino Uno
+\item 1 Breadboard
+\item 1 LED
+\item 1 Resistor (330 ohms)
+\item 1 Soil Moisture Sensor
+\item Jumper wires
+\end{itemize}
 \section{Installation}\subsection{Arduino: Installing Standard Firmata}
 \begin{itemize}
 \item Your first step should be to download the Arduino application from 
@@ -138,6 +149,18 @@ In this lesson, we will use a setup with Pharo and Firmata.
 \end{itemize}
 
 \item Upload the Standard Firmata Sketch
+\end{itemize}
+
+
+\begin{figure}
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/firmataExample.JPG}\caption{Standard Firmata Example.\label{StandarFirmataExample}}\end{center}
+\end{figure}
+
+
+\begin{itemize}
+\item 
 \begin{itemize}
 \item StandardFirmata is included with the Arduino IDE. To compile and upload StandardFirmata to your Arduino, open the IDE and select File/Examples/Firmata/StandardFirmata. 
 \item Now at the top of the text editor window, click the \symbol{34}Upload\symbol{34} button on the IDE.
@@ -170,6 +193,24 @@ For example in Arduino UNO which is a microcontroller board based on the \symbol
 
 The \textcode{digital pins} on the Arduino can be configured as either inputs or outputs. There are only two state, either ON or OFF state and these states are represented by the binary values 1 and 0. You use digital signals in situations where the input or output will have one of those two values. In Arduino sketch terms, a ON state is known as HIGH (5V) and OFF state is known as LOW (0V). In other words, we can use them to obtain a digital value (for example, if a button is pressed or not), or to set a value (set if a led is turned on or off) but not both at the same time.
 \subsection{Writing to Digital Pins}
+To write to a digital pin, you should first set it to output mode using the \textcode{\#digitalPin:mode: message}. The first argument of the message is the number of the pin, and the second is a numeric value representing the output mode value. We use the \textcode{FirmataConstants} class that encapsulates many of the different numeric values used by firmata. In the following example, we set the digital pin 13 in output mode, so we can write to it.
+
+\begin{displaycode}{plain}
+  firmata digitalPin: 13 mode: FirmataConstants pinModeOutput.
+\end{displaycode}
+
+We can then write to a digital port with the \textcode{\#digitalWrite:value: message}, giving the pin number as first argument, and the value to write (0 or 1) as second argument. Thus, to turn on the pin 13 we can do:
+
+\begin{displaycode}{plain}
+  firmata digitalWrite: 13 value: 1.
+\end{displaycode}
+
+And to turn it off:
+
+\begin{displaycode}{plain}
+  firmata digitalWrite: 13 value: 0.
+\end{displaycode}
+
 https://www.instructables.com/id/Arduino-Installing-Standard-Firmata/
 
 

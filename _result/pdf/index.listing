@@ -1,4 +1,1 @@
-  Metacello new
-  baseline: 'Firmata';
-  repository: 'github://pharo-iot/Firmata';
-  load
+  firmata digitalWrite: 13 value: 0.
