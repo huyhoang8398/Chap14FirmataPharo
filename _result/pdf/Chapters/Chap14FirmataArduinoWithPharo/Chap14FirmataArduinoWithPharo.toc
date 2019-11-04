@@ -1,7 +1,7 @@
 \changetocdepth {1}
 \contentsline {chapter}{Illustrations}{ii}{section*.1}% 
 \needspace {3\baselineskip }
-\contentsline {chapter}{\chapternumberline {1}Lesson 14 – Firmata implementation for the Pharo Programming Language.}{1}{chapter.1}% 
+\contentsline {chapter}{\chapternumberline {1}Lesson 15 – Firmata implementation for the Pharo Programming Language.}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}What do we need?}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Installation}{2}{section.1.2}% 
 \contentsline {subsection}{Arduino: Installing Standard Firmata}{2}{section*.2}% 
@@ -14,6 +14,7 @@
 \contentsline {subsection}{Reading from Analog Pins}{6}{section*.7}% 
 \contentsline {section}{\numberline {1.5}Experimental procedure}{6}{section.1.5}% 
 \contentsline {subsection}{Connecting the Firmata client to arduino}{7}{section*.8}% 
-\contentsline {subsection}{Check the firmata connection}{7}{section*.9}% 
-\contentsline {subsection}{Reading from Soil Moisture Value from Analog Pins}{7}{section*.10}% 
-\contentsline {chapter}{Bibliography}{9}{chapter*.11}% 
+\contentsline {subsection}{Check the firmata connection}{8}{section*.9}% 
+\contentsline {subsection}{Getting the temperature with Capacitive-Soil-Moisture Sensor}{8}{section*.10}% 
+\contentsline {subsection}{Result }{8}{section*.11}% 
+\contentsline {chapter}{Bibliography}{9}{chapter*.12}% 

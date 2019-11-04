@@ -158,6 +158,12 @@ Writing analog pins can be used to, for example, turn on leds with a given inten
 
 !!! Experimental procedure
 
+The Soil Moisture Sensor measures soil moisture grace to the changes in electrical conductivity of the earth ( soil resistance increases with drought ).
+The electrical resistance is measured between the two electrodes of the sensor.
+A comparator activates a digital output when a adjutable threshold is exceeded.
+There are a lot of moisture sensors but in our example, we use the Capacitive Soil Moisture Sensor from DFTrobot as the figure *@Capacitive-Soil-Moisture Sensor*
++Capacitive-Soil-Moisture Sensor.>figures/SEN0193.jpg|width=60|label=Capacitive-Soil-Moisture Sensor+
+
 The Figure *@Capacitive-Soil-Moisture Sensor Sketch* shows how the electric connection is made.
 
 +Capacitive-Soil-Moisture Sensor Sketch.>figures/capacitiveSoilMoistureSensor.png|width=90|label=Capacitive-Soil-Moisture Sensor Sketch+
@@ -179,8 +185,16 @@ The Figure *@Capacitive-Soil-Moisture Sensor Sketch* shows how the electric conn
   firmata isConnected.
 ]]]
 
-!!!! Reading from Soil Moisture Value from Analog Pins
+!!!! Getting the temperature with Capacitive-Soil-Moisture Sensor
 
 [[[
-  ((firmata analogRead: 0) * 500 / 1024) asFloat.
+  firmata activateAnalogPin: 0.
+  firmata analogRead:0.
 ]]]
+
+!!!! Result 
+
+This is very simple and you can get these values and stored in a variable, to use to different purposes, like send a message to an LCD display, send the values to a cloud server and simply do some action.
+
++Capacitive-Soil-Moisture Sensor with Arduino via Firmata Result.>figures/result.png|width=90|label=Capacitive-Soil-Moisture Sensor with Arduino via Firmata Result+
+

@@ -1,1 +1,2 @@
-  ((firmata analogRead: 0) * 500 / 1024) asFloat.
+  firmata activateAnalogPin: 0.
+  firmata analogRead:0.
