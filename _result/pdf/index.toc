@@ -10,4 +10,12 @@
 \contentsline {subsection}{Pharo with Firmata}{5}{section*.4}% 
 \contentsline {section}{\numberline {1.3}Digital Pins}{6}{section.1.3}% 
 \contentsline {subsection}{Writing to Digital Pins}{6}{section*.5}% 
-\contentsline {chapter}{Bibliography}{7}{chapter*.6}% 
+\contentsline {subsection}{Reading from Digital Pins}{7}{section*.6}% 
+\contentsline {section}{\numberline {1.4}Analog Pins}{8}{section.1.4}% 
+\contentsline {subsection}{Activating Analog Pins}{8}{section*.7}% 
+\contentsline {subsection}{Reading from Analog Pins}{8}{section*.8}% 
+\contentsline {section}{\numberline {1.5}Experimental procedure}{8}{section.1.5}% 
+\contentsline {subsection}{Connecting the Firmata client to arduino}{9}{section*.9}% 
+\contentsline {subsection}{Check the firmata connection}{9}{section*.10}% 
+\contentsline {subsection}{Reading from Soil Moisture Value from Analog Pins}{9}{section*.11}% 
+\contentsline {chapter}{Bibliography}{11}{chapter*.12}% 

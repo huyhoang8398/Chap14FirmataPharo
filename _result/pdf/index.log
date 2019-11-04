@@ -1,7 +1,7 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.5.15)  22 JUN 2019 15:12
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.10.10)  5 NOV 2019 01:00
  restricted system commands enabled.
 **index.tex
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.tex
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.tex
 LaTeX2e <2018-12-01>
 Lua module: luaotfload-main 2019-02-14 2.96 luaotfload entry point
 Lua module: luaotfload-init 2019-02-14 2.96 luaotfload submodule / initializatio
@@ -48,10 +48,8 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.060 seconds
-
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/_support/latex/sbabook/sbab
-ook.cls
+luaotfload | main : initialization completed in 0.065 seconds
+(/Users/kn/Chap14FirmataPharo/_result/pdf/_support/latex/sbabook/sbabook.cls
 
 LaTeX Warning: You have requested document class `_support/latex/sbabook/sbabook
 ',
@@ -1285,7 +1283,7 @@ Lua module: polyglossia 2013/05/11 1.3 Polyglossia))
 (/usr/local/texlive/2019/texmf-dist/tex/latex/import/import.sty
 Package: import 2009/03/23  v 5.1
 )
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/_support/latex/common.tex
+(/Users/kn/Chap14FirmataPharo/_result/pdf/_support/latex/common.tex
 
 ******************************************************
 Stock height and width: 234.94724mm by 158.74812mm
@@ -1327,8 +1325,8 @@ Sidefootvsep and sidefootheight: 4.21747mm and 192.73828mm
 ******************************************************
 
 
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/_support/latex/sbabook/phar
-o-titlepage.sty
+(/Users/kn/Chap14FirmataPharo/_result/pdf/_support/latex/sbabook/pharo-titlepag
+e.sty
 File: pharo-titlepage.sty 2017/05/10 0.1 title page design for SBA booklets
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -1541,13 +1539,13 @@ Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
 \multirow@dima=\skip273
 \bigstrutjot=\dimen325
 )
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/_support/latex/lstsmalltalk
-.sty
+(/Users/kn/Chap14FirmataPharo/_result/pdf/_support/latex/lstsmalltalk.sty
 File: lstsmalltalk.sty 2009/07/03 0.2 listings Smalltalk definitions file
 )
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/_support/latex/lsthttp.sty
+(/Users/kn/Chap14FirmataPharo/_result/pdf/_support/latex/lsthttp.sty
 File: lsthttp.sty 2015/09/23 0.1 listings HTTP definitions file
-)) (/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.aux)
+))
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.aux)
 \openout1 = index.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -1685,8 +1683,8 @@ LaTeX Info: Redefining \nameref on input line 30.
 LaTeX Info: Redefining \ref on input line 30.
 LaTeX Info: Redefining \pageref on input line 30.
 LaTeX Info: Redefining \nameref on input line 30.
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.out)
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.out
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.out)
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.out
 warning  (pdf backend): objcompresslevel > 0 requires minorversion > 4
 )
 \@outlinefile=\write7
@@ -1711,7 +1709,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 64.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 64.
-<_support/latex/sbabook/CreativeCommons-BY-SA.pdf, id=61, 120.45pt x 42.1575pt>
+<_support/latex/sbabook/CreativeCommons-BY-SA.pdf, id=93, 120.45pt x 42.1575pt>
 File: _support/latex/sbabook/CreativeCommons-BY-SA.pdf Graphic file (type pdf)
 <use _support/latex/sbabook/CreativeCommons-BY-SA.pdf>
 Package luatex.def Info: _support/latex/sbabook/CreativeCommons-BY-SA.pdf  used 
@@ -1727,9 +1725,8 @@ LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
 (Font)              scaled to size 7.75511pt on input line 82.
 [2
 
-</Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/_support/latex/sbabook/Creat
-iveCommons-BY-SA.pdf>]
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.toc
+</Users/kn/Chap14FirmataPharo/_result/pdf/_support/latex/sbabook/CreativeCommons
+-BY-SA.pdf>] (/Users/kn/Chap14FirmataPharo/_result/pdf/index.toc
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
 (Font)              scaled to size 8.48541pt on input line 2.
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/bx/n' will be
@@ -1745,7 +1742,7 @@ LaTeX Font Info:    Font shape `TU/OpenSans(0)/bx/n' will be
 
 
 ]
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.lof) [2
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.lof) [2
 
 ]
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
@@ -1900,16 +1897,15 @@ LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
 (Font)              scaled to size 6.78833pt on input line 119.
 
 \openout5 = index.listing
- (/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.listing)
-</Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduin
-oWithPharo/figures/IMG_3231.JPG, id=111, 4047.12pt x 3035.34pt>
-File: /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataA
-rduinoWithPharo/figures/IMG_3231.JPG Graphic file (type jpg)
-<use /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataAr
-duinoWithPharo/figures/IMG_3231.JPG>
-Package luatex.def Info: /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chap
-ters/Chap14FirmataArduinoWithPharo/figures/IMG_3231.JPG  used on input line 141.
-
+ (/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing)
+</Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo
+/figures/IMG_3231.JPG, id=151, 4047.12pt x 3035.34pt>
+File: /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWith
+Pharo/figures/IMG_3231.JPG Graphic file (type jpg)
+<use /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithP
+haro/figures/IMG_3231.JPG>
+Package luatex.def Info: /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap1
+4FirmataArduinoWithPharo/figures/IMG_3231.JPG  used on input line 141.
 (luatex.def)             Requested size: 227.49901pt x 170.57999pt.
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
 (Font)              scaled to size 8.61679pt on input line 146.
@@ -1919,41 +1915,108 @@ Overfull \hbox (9.46567pt too wide) in paragraph at lines 148--149
 is \TU/FiraMono(0)/m/n/10 /de-v/tty.us- 
  []
 
-[4</Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArdu
-inoWithPharo/figures/IMG_3231.JPG>]
-</Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduin
-oWithPharo/figures/firmataExample.JPG, id=122, 1445.4pt x 903.375pt>
-File: /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataA
-rduinoWithPharo/figures/firmataExample.JPG Graphic file (type jpg)
-<use /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataAr
-duinoWithPharo/figures/firmataExample.JPG>
-Package luatex.def Info: /Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chap
-ters/Chap14FirmataArduinoWithPharo/figures/firmataExample.JPG  used on input lin
-e 158.
+[4</Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPha
+ro/figures/IMG_3231.JPG>]
+</Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo
+/figures/firmataExample.JPG, id=162, 1445.4pt x 903.375pt>
+File: /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWith
+Pharo/figures/firmataExample.JPG Graphic file (type jpg)
+<use /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithP
+haro/figures/firmataExample.JPG>
+Package luatex.def Info: /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap1
+4FirmataArduinoWithPharo/figures/firmataExample.JPG  used on input line 158.
 (luatex.def)             Requested size: 227.49901pt x 142.18582pt.
 
+Overfull \hbox (0.47165pt too wide) in paragraph at lines 169--170
+[]\TU/GentiumBasic(0)/m/n/10 When the pro-cess is com-pleted, you should see th
+e mes-sage ”Done 
+ []
+
+
+\openout5 = index.listing
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing) [5</Users/kn/Chap14Firm
+ataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/firmataExamp
+le.JPG>]
+\openout5 = index.listing
+ (/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing)
 \openout5 = index.listing
 
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.listing) [5</Users/huy
-hoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/
-figures/firmataExample.JPG>]
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing)
 \openout5 = index.listing
 
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.listing)
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing) [6]
 \openout5 = index.listing
 
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.listing)
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing)
 \openout5 = index.listing
 
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.listing)
-(/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.bbl [6]
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing)
+\openout5 = index.listing
+
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing)
+</Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo
+/figures/IMG_3227.JPG, id=183, 4047.12pt x 3035.34pt>
+File: /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWith
+Pharo/figures/IMG_3227.JPG Graphic file (type jpg)
+<use /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithP
+haro/figures/IMG_3227.JPG>
+Package luatex.def Info: /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap1
+4FirmataArduinoWithPharo/figures/IMG_3227.JPG  used on input line 250.
+(luatex.def)             Requested size: 227.49901pt x 170.57999pt.
+</Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo
+/figures/digitalPinExample.jpg, id=184, 585.387pt x 227.249pt>
+File: /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWith
+Pharo/figures/digitalPinExample.jpg Graphic file (type jpg)
+<use /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithP
+haro/figures/digitalPinExample.jpg>
+Package luatex.def Info: /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap1
+4FirmataArduinoWithPharo/figures/digitalPinExample.jpg  used on input line 266.
+(luatex.def)             Requested size: 292.49802pt x 113.54791pt.
+
+\openout5 = index.listing
+
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing) [7</Users/kn/Chap14Firm
+ataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/IMG_3227.JPG
+>]
+\openout5 = index.listing
+ (/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing)
+\openout5 = index.listing
+
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing)
+\openout5 = index.listing
+
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing)
+</Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo
+/figures/capacitiveSoilMoistureSensor.png, id=198, 521.95pt x 179.069pt>
+File: /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWith
+Pharo/figures/capacitiveSoilMoistureSensor.png Graphic file (type png)
+<use /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithP
+haro/figures/capacitiveSoilMoistureSensor.png>
+Package luatex.def Info: /Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap1
+4FirmataArduinoWithPharo/figures/capacitiveSoilMoistureSensor.png  used on input
+ line 304.
+(luatex.def)             Requested size: 292.49802pt x 100.34898pt.
+ [8</Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPh
+aro/figures/digitalPinExample.jpg>]
+\openout5 = index.listing
+ (/Users/kn/Chap14FirmataPharo/_result/pdf/i
+ndex.listing)
+\openout5 = index.listing
+
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing)
+\openout5 = index.listing
+
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.listing)
+(/Users/kn/Chap14FirmataPharo/_result/pdf/index.bbl [9</Users/kn/Chap14FirmataPh
+aro/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/capacitiveSoilMoi
+stureSensor.png>] [10
+
+]
 bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [7
-
-] [8
+) [11] [12
 
 ]
 \tf@toc=\write8
@@ -1962,35 +2025,35 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 \tf@lof=\write9
 
 \openout9 = index.lof
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
- (/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
+ (/Users/kn/Chap14FirmataPharo/_result/pdf/index.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 341.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: 201E8A9B5D5E4D874F09E60C7AA7B4C4;1709.
+(rerunfilecheck)             Checksum: C3C4DA66CDB8457C0CD41666DF775D0F;3338.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40884 strings out of 494291
+ 41092 strings out of 494291
  125017,1144653 words of node,token memory allocated
  1428 words of node memory still in use:
    7 hlist, 5 vlist, 1 rule, 12 glue, 3 kern, 1 glyph, 18 attribute, 208 glue_sp
 ec, 18 attribute_list, 3 write, 4 pdf_literal, 1 pdf_action nodes
-   avail lists: 1:4,2:1532,3:228,4:37,5:801,6:27,7:2555,8:57,9:1764,10:14,11:182
+   avail lists: 1:4,2:1532,3:314,4:43,5:801,6:29,7:2976,8:57,9:1764,10:14,11:185
 
- 43689 multiletter control sequences out of 65536+600000
+ 43734 multiletter control sequences out of 65536+600000
  129 fonts using 19192943 bytes
- 67i,12n,118p,829b,1046s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 67i,12n,118p,829b,1053s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2019/texmf-dist/fonts/truetype/public/opensans/OpenSans-Bold
 .ttf></usr/local/texlive/2019/texmf-dist/fonts/opentype/public/fira/FiraMono-Reg
 ular.otf></usr/local/texlive/2019/texmf-dist/fonts/truetype/public/gentium-tug/G
 enBkBasB.ttf></usr/local/texlive/2019/texmf-dist/fonts/truetype/public/gentium-t
 ug/GenBkBasR.ttf></usr/local/texlive/2019/texmf-dist/fonts/truetype/public/opens
 ans/OpenSans-Regular.ttf>
-Output written on index.pdf (12 pages, 5705242 bytes).
+Output written on index.pdf (16 pages, 8143021 bytes).
 
-PDF statistics: 188 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 131072)
- 156 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 272 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 131072)
+ 220 words of extra memory for PDF output out of 10000 (max. 100000000)
 

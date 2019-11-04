@@ -138,7 +138,7 @@ In this lesson, we will use a setup with Pharo and Firmata.
 \begin{figure}
 
 \begin{center}
-\includegraphics[width=0.7\textwidth]{/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/IMG_3231.JPG}\caption{Arduino.\label{ArduinoConnection}}\end{center}
+\includegraphics[width=0.7\textwidth]{/Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/IMG_3231.JPG}\caption{ArduinoUno.\label{ArduinoConnection}}\end{center}
 \end{figure}
 
 
@@ -155,7 +155,7 @@ In this lesson, we will use a setup with Pharo and Firmata.
 \begin{figure}
 
 \begin{center}
-\includegraphics[width=0.7\textwidth]{/Users/huyhoang8398/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/firmataExample.JPG}\caption{Standard Firmata Example.\label{StandarFirmataExample}}\end{center}
+\includegraphics[width=0.7\textwidth]{/Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/firmataExample.JPG}\caption{Standard Firmata Example.\label{StandarFirmataExample}}\end{center}
 \end{figure}
 
 
@@ -166,6 +166,7 @@ In this lesson, we will use a setup with Pharo and Firmata.
 \item Now at the top of the text editor window, click the \symbol{34}Upload\symbol{34} button on the IDE.
 \item At the bottom of the text editor window, you should see a small status window. This will report the progress as the code is compiled and then uploaded to the Arduino. 
 \item While the code is being uploaded, you should see some very small LED lights (the Transmit (TX) and Receive (RX) lights) on your Arduino board blinking as the data is transferred.
+\item When the process is completed, you should see the message \symbol{34}Done Uploading\symbol{34} in the status window at the bottom of the editor.
 \end{itemize}
 
 \end{itemize}
@@ -187,13 +188,43 @@ To connect to your firmatata enable device, you need the following things:
 \item Know its baud rate.
 \item Install firmata in it (you can do it using your arduino IDE).
 \end{itemize}
+
+For example, our Arduino boards use a baud rate of 57600, and were detected by our operating system in the /dev/ttyACM0 port. 
+Connecting the Firmata client to arduino is as easy as follows:
+
+\begin{displaycode}{plain}
+  firmata := Firmata onPort: '/dev/ttyACM0' baudRate: 57600.
+\end{displaycode}
+
+Connecting to an arduino will check that the port exists, and will verify that Arduino has installed a compatible version of Firmata. 
+In case one of these conditions does not hold, an exception is thrown.
+
+Once we are connected, we can ask the Firmata driver if it is connected or not.
+
+\begin{displaycode}{plain}
+  firmata isConnected.
+\end{displaycode}
+
+And finally, we can disconnect it by doing:
+
+\begin{displaycode}{plain}
+  firmata disconnect.
+\end{displaycode}
 \section{Digital Pins}
 The \textcode{digital inputs and outputs} (digital I/O) on the Arduino are what allow you to connect the Arduino sensors, actuators, and chips (intergrated circuit).
-For example in Arduino UNO which is a microcontroller board based on the \symbol{34}ATmega328\symbol{34}. It has a few types of pins: \textbf{digital pin} ( 6 can be used as PWM outputs ), \textbf{analog pins} and orther pins like \textbf{power pins}
+For example in Arduino UNO which is a microcontroller board based on the \symbol{34}ATmega328\symbol{34}. 
+It has a few types of pins: \textbf{digital pin} ( 6 can be used as PWM outputs ), \textbf{analog pins} and orther pins like \textbf{power pins}
 
-The \textcode{digital pins} on the Arduino can be configured as either inputs or outputs. There are only two state, either ON or OFF state and these states are represented by the binary values 1 and 0. You use digital signals in situations where the input or output will have one of those two values. In Arduino sketch terms, a ON state is known as HIGH (5V) and OFF state is known as LOW (0V). In other words, we can use them to obtain a digital value (for example, if a button is pressed or not), or to set a value (set if a led is turned on or off) but not both at the same time.
+The \textcode{digital pins} on the Arduino can be configured as either inputs or outputs. 
+There are only two state, either ON or OFF state and these states are represented by the binary values 1 and 0. 
+You use digital signals in situations where the input or output will have one of those two values. 
+In Arduino sketch terms, a ON state is known as HIGH (5V) and OFF state is known as LOW (0V). 
+In other words, we can use them to obtain a digital value (for example, if a button is pressed or not), or to set a value (set if a led is turned on or off) but not both at the same time.
 \subsection{Writing to Digital Pins}
-To write to a digital pin, you should first set it to output mode using the \textcode{\#digitalPin:mode: message}. The first argument of the message is the number of the pin, and the second is a numeric value representing the output mode value. We use the \textcode{FirmataConstants} class that encapsulates many of the different numeric values used by firmata. In the following example, we set the digital pin 13 in output mode, so we can write to it.
+To write to a digital pin, you should first set it to output mode using the \textcode{\#digitalPin:mode: message}. 
+The first argument of the message is the number of the pin, and the second is a numeric value representing the output mode value. 
+We use the \textcode{FirmataConstants} class that encapsulates many of the different numeric values used by firmata. 
+In the following example, we set the digital pin 13 in output mode, so we can write to it.
 
 \begin{displaycode}{plain}
   firmata digitalPin: 13 mode: FirmataConstants pinModeOutput.
@@ -211,7 +242,90 @@ And to turn it off:
   firmata digitalWrite: 13 value: 0.
 \end{displaycode}
 
-https://www.instructables.com/id/Arduino-Installing-Standard-Firmata/
+You can use this method to toggle the LED as shown in Figure \ref{Controlling LED with Arduino via Digital pins}.
+
+\begin{figure}
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{/Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/IMG_3227.JPG}\caption{Controlling LED with Arduino via Digital pins.\label{Controlling LED with Arduino via Digital pins}}\end{center}
+\end{figure}
+
+\subsection{Reading from Digital Pins}
+To read from a digital pin, you should first set it to input mode using the \textcode{\#digitalPin:mode: message}. 
+The first argument of the message is the number of the pin, and the second is a numeric value representing the input mode value. 
+We use the FirmataConstants class that encapsulates many of the different numeric values used by firmata.
+
+In the following example, we first setup a push down button with a pull-down resistor.
+We connect the button output to digital pin 2.
+When we push the button and Firmata should tell us that the value of pin 2 is 1. When we do not push it, its value should be 0.
+
+
+\begin{figure}
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{/Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/digitalPinExample.jpg}\caption{Pull-down Resistor Button Sketch.\label{Pull-down Resistor Button Sketch}}\end{center}
+\end{figure}
+
+
+First, we set the digital pin 2 in input mode, so we can read from it.
+
+\begin{displaycode}{plain}
+  firmata digitalPin: 2 mode: FirmataConstants pinModeInput.
+\end{displaycode}
+
+Then, we can read the value of the pin using the \textcode{\#digitalRead:} message.
+
+\begin{displaycode}{plain}
+  firmata digitalRead: 2.
+\end{displaycode}
+
+If we ask the value and press the button at the same time, we get the value 1.
+\section{Analog Pins}
+Analog pins are pins whose state range in the continuum between 0 and 1. These states are represented as floating point numbers.
+
+As with digital pins, analog pins work both in read and write mode. 
+Typical usages of reading analog pins is retrieving data from sensors, such as temperature, humidity, light and so on. 
+Writing analog pins can be used to, for example, turn on leds with a given intensity instead of just \symbol{34}turning on\symbol{34} like we do with the digital pins.
+\subsection{Activating Analog Pins}
+\begin{displaycode}{plain}
+  firmata activateAnalogPin: 0.
+\end{displaycode}
+\subsection{Reading from Analog Pins}
+\begin{displaycode}{plain}
+  ((firmata analogRead: 0) * 500 / 1024) asFloat.
+\end{displaycode}
+\section{Experimental procedure}
+The Figure \ref{Capacitive-Soil-Moisture Sensor Sketch} shows how the electric connection is made.
+
+
+\begin{figure}
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{/Users/kn/Chap14FirmataPharo/_result/pdf/Chapters/Chap14FirmataArduinoWithPharo/figures/capacitiveSoilMoistureSensor.png}\caption{Capacitive-Soil-Moisture Sensor Sketch.\label{Capacitive-Soil-Moisture Sensor Sketch}}\end{center}
+\end{figure}
+
+
+\begin{tabular}{ll}
+\toprule
+\textbf{Aduino Uno} & \textbf{Capacitive Soil Moisture Sensor} \\
+\midrule
+GND & Black wire \\
+5V & Red Wire \\
+Analog output & Blue Wire \\
+\bottomrule
+\end{tabular}
+\subsection{Connecting the Firmata client to arduino}
+\begin{displaycode}{plain}
+  firmata := Firmata onPort: '/dev/ttyACM0' baudRate: 57600.
+\end{displaycode}
+\subsection{Check the firmata connection}
+\begin{displaycode}{plain}
+  firmata isConnected.
+\end{displaycode}
+\subsection{Reading from Soil Moisture Value from Analog Pins}
+\begin{displaycode}{plain}
+  ((firmata analogRead: 0) * 500 / 1024) asFloat.
+\end{displaycode}
 
 
 
